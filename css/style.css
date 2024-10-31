@@ -235,10 +235,10 @@ h1 {
 #listas .customord li li li {
     list-style-type: decimal;
 }
-#listas .customico li li {
-    list-style-image: url("../img/corazon.png");
+#listas .customer li li {
+    list-style-image: url("../img/bandera\ \(1\).png");
 }
-#listas .customico li li li{
+#listas .customer li li li{
     list-style-image: none;
 }
 .listadefcustom {
