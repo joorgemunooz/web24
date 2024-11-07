@@ -11,8 +11,7 @@
 <body>
     <div class="container shadow">
         <header>
-            <div class="row align-items-center">
-                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+            <div class="row align-it                             <div class="col-3"><img src="img/españa2.png" alt="logo" width="250"></div>
                 <div class="col-9">
                     <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
                     <nav id="menu">
@@ -69,61 +68,57 @@
             <div class="p-3">
                 <div id="formularios" class="py-3">
                     <h2 class="text-center">FORMULARIOS</h2>
+                    <h2 class="text-left">Formulario Login</h2>
                     <form action="#" method="get" class="formlogin">
                         <fieldset>
                             <legend>Login</legend>
                             <p>
-                                <input type="text" name="user" id="" placeholder="User">
+                                <input type="text" name="user" id="" placeholder="Nombre">
                             </p>
                             <p>
-                                <input type="password" name="pass" id="" placeholder="Clave">
+                                <input type="password" name="pass" id="" placeholder="Contraseña">
                             </p>
                             <p>
-                                <input type="submit" value="Enviar">
+                                    <input type="submit" value="Login" class="btn btn-log">
+                                </p>
                             </p>
                         </fieldset>
                     </form>
+                    <h2 class="text-center  ">Formulario de registro</h2>
                     <form action="#" method="get" class="formregister">
                         <fieldset>
                             <legend>Registro</legend>
-                            <p><label for="">Input type text:</label>
+                            <p><label for="">Introduce tu nombre:</label>
                                 <input type="text" name="user" id="">
                             </p>
                             <p>
-                                <label for="">Input type password:</label>
+                                <label for="">Introduce tu contraseña:</label>
                                 <input type="password" name="pass" id="">
                             </p>
-                            <p>
-                                <label for="">Provincia:</label>
-                                <select name="provincia" id="">
-                                    <option value="1">Toledo</option>
-                                    <option value="2">Cuenca</option>
-                                    <option value="3">C. Real</option>
-                                    <option value="4">Guadalajara</option>
-                                    <option value="5">Albacete</option>
-                                </select>
-                            </p>
+                             <p>
+                                <label for="">Comentarios:</label><br />
+                                <textarea name="comment" id="" cols="70" rows="7"></textarea>
+                            </p> 
+                            
+                            
                             <p>
                                 <label for="">Aficiones:</label><br/>
                                 <input type="checkbox" name="cine" id=""> Cine<br/>
                                 <input type="checkbox" name="deportes" id=""> Deportes<br/>
-                                <input type="checkbox" name="viajar" id=""> Viajar<br/>
-                                <input type="checkbox" name="fiesta" id=""> Fiesta<br/>
+                                <input type="checkbox" name="viajar" id=""> Lectura<br/>
+                                <input type="checkbox" name="fiesta" id=""> Viajar<br/>
                             </p>
                             <p>
-                                <label for="">Sexo:</label><br/>
-                                <input type="radio" name="Sexo" id=""> Hombre<br/>
-                                <input type="radio" name="Sexo" id=""> Mujer<br/>
-                                <input type="radio" name="Sexo" id=""> No te importa<br/>
-                                <input type="radio" name="Sexo" id=""> Lo que yo quiera<br/>
+                                <label for="">Estado civil:</label><br/>
+                                <input type="radio" name="Sexo" id=""> Casado/a<br/>
+                                <input type="radio" name="Sexo" id=""> Soltero/a<br/>
+                                <input type="radio" name="Sexo" id=""> Viudo/a<br/>
+                                <input type="radio" name="Sexo" id=""> Otros<br/>
                             </p>
+                                 
                             <p>
-                                <label for="">Comentarios:</label><br />
-                                <textarea name="comment" id="" cols="70" rows="7"></textarea>
-                            </p>       
-                            <p>
-                                <label for="">Provincia:</label>
-                                <select name="provincia" id="" multiple>
+                                <label for="provincia">Provincia:</label>
+                                <select name="provincia" id="provincia" multiple>
                                     <option value="1">Toledo</option>
                                     <option value="2">Cuenca</option>
                                     <option value="3">C. Real</option>
@@ -135,7 +130,7 @@
                                 <input type="file" name="foto" id="">
                             </p>               
                             <p>
-                                <input type="submit" value="Enviar" class="btn btn-red">
+                                <input type="submit" value="Enviar" class="btn btn-blue">
                             </p>
                             
                         </fieldset>
@@ -171,7 +166,12 @@
             </div>
         </main>
         <footer>
-            <h1 class="bg-azul-o text-center text-white py-3">&copy; Paco Pulido</h1>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Jorge Muñoz</h1>
+      </div>
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Jorge Muñoz</h1>
         </footer>
     </div>
     <script>
