@@ -1,0 +1,402 @@
+
+
+body {
+    background-color: red;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color:  rgb(253, 251, 225);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+
+.bg-azul-o {
+    background-color: yellow;
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.bg-orange {
+    background-color: orange;
+}
+.text-white {
+    color: white;
+}
+.text-red {
+    color: blue;
+    font-size: 30px;
+    background-color: cyan;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.etiqueta {
+    color:blue  ;
+    font-size: 28px;
+    font-weight: bold;
+}
+.atributo {
+    color: green;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#enlaces a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 22px;
+}
+#listas .customdes li {
+    list-style-type: square;
+}
+#listas .customdes li li {
+    list-style-type: disc;
+}
+#listas .customdes li li li {
+    list-style-type: circle;
+}
+#listas .customord li {
+    list-style-type: upper-alpha;
+}
+#listas .customord li li {
+    list-style-type: upper-roman;
+}
+#listas .customord li li li {
+    list-style-type: decimal;
+}
+#listas .customer li li {
+    list-style-image: url("../img/bandera\ \(1\).png");
+}
+#listas .customer li li li{
+    list-style-image: none;
+}
+.listadefcustom {
+    font-size: 20px;
+    width: 30%;
+}
+.listadfcustom dt{
+    display: inline;
+    font-size: 26px;
+    background-color: aqua;
+    color: rgb(2, 2, 49);
+    font-weight: bold;
+}
+
+
+.striped tr:nth-child(odd) {
+background-color:rgb(237, 94, 11);
+}
+.striped tr:nth-child(even) {
+background-color:rgb(255, 251, 14);
+
+}
+
+.tablafc th {
+    background-color: rgb(19, 19, 93);
+    color: white;
+}
+.lm {
+    background-color: #64b4ef;
+}
+table.horario {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+table.horario th {
+    background-color: #f0f0f0;
+    color: #008080;
+}
+
+
+.ende {
+    background-color: #b4b36e;
+}
+.lm {
+    background-color: #d2d26e;
+}
+.prog {
+    background-color: #64b4ef;
+}
+.sisi {
+    background-color: #65aa97;
+}
+.IPCG {
+    background-color: #ffa264;
+}
+.bd {
+    background-color: #81ff82;
+}
+.fol {
+    background-color: #fe8081;
+}
+
+.sasp{
+    
+    background-color: #27c8c9;
+    
+
+}
+.dasp{
+    
+    background-color: #ffff63;
+    
+
+}
+.ende {
+    background-color: #c9a0c8;
+}
+.pimd{
+    background-color: #ffc897;
+}
+.w80 {
+    width: 80%;
+    margin: 0 auto;
+}
+.tfc th {
+    background-color: rgb(2, 1, 66);
+    color: azure;
+}
+.formlogin {
+    float: left;
+    width: 30%;
+}
+.formregister {
+    float: right;
+    width: 50%;
+}
+.cb {
+    clear: both;
+}
+.formhtml5 {
+    width: 50%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.formhtml5 legend {
+    background-color: rgb(6, 6, 71);
+    color: white;
+    font-size: 22px;
+}
+.formhtml5 label {
+    background-color: rgb(1, 65, 40);
+    color: rgb(191, 243, 204);
+    font-size: 16px;
+}
+.btn {
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btn-log{
+    background-color: rgb(6, 6, 71);;
+    color: white;
+
+}
+.btn-blue {
+    background-color: rgb(6, 6, 71);;
+    color: white;
+}
+.btn-green {
+    background-color: rgb(4, 44, 14);
+    color: rgb(177, 245, 174);
+}
+.col3 {
+    width: 33.3%;
+    float: left;
+}
+.col3 img {
+    padding: 4px;
+}
+video {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+audio {
+    display: block;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+#provincia{
+color: yellow;
+}
