@@ -266,7 +266,7 @@ h1 {
 background-color:red;
 }
 .striped tr:nth-child(even) {
-background-color:purple;
+background-color:rgb(255, 251, 14);
 
 }
 
