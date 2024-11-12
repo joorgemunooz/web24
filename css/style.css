@@ -244,7 +244,7 @@ h1 {
     list-style-type: decimal;
 }
 #listas .customer li li {
-    list-style-image: url("../img/bandera\ \(1\).png");
+    list-style-image: url("/img/bandera\ \(1\).png");
 }
 #listas .customer li li li{
     list-style-image: none;
@@ -266,7 +266,7 @@ h1 {
 background-color:red;
 }
 .striped tr:nth-child(even) {
-background-color:rgb(255, 251, 14);
+background-color:rgb(13, 167, 80);
 
 }
 
@@ -278,10 +278,22 @@ background-color:rgb(255, 251, 14);
     background-color: #64b4ef;
 }
 table.horario {
+    background-color: white;
     font-size: 20px;
     width: 70%;
     margin: 0 auto;
     text-align: center;
+
+}
+.grupo {
+    color: #0a8683;
+    font-style: italic;
+    font-size: 24px;
+    background-color: white;
+}
+table.grupo{
+    color: yellow;
+    background-color:black ;
 }
 table.horario th {
     background-color: #f0f0f0;
@@ -291,43 +303,53 @@ table.horario th {
 
 .ende {
     background-color: #b4b36e;
+    color: black;
 }
 .lm {
     background-color: #d2d26e;
+    color: black;
 }
 .prog {
     background-color: #64b4ef;
+    color: black;
 }
 .sisi {
     background-color: #65aa97;
+    color: black;
 }
 .IPCG {
     background-color: #ffa264;
+    color: black;
 }
 .bd {
     background-color: #81ff82;
+    color: black;
 }
 .fol {
     background-color: #fe8081;
+    color: black;
 }
 
 .sasp{
     
     background-color: #27c8c9;
+    color: black;
     
 
 }
 .dasp{
     
     background-color: #ffff63;
-    
+    color: black;
 
 }
 .ende {
     background-color: #c9a0c8;
+    color: black;
 }
 .pimd{
     background-color: #ffc897;
+    color: black;
 }
 .w80 {
     width: 80%;
