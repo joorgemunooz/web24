@@ -1,13 +1,16 @@
 
 
 body {
-    background-color: red;
+    background-color:black;
     margin: 0;
 }
 
 * {
     box-sizing: border-box;
-    color: white;
+    color: yellow;
+}
+.custom-hr{
+    border-color: yellow;
 }
 
 
@@ -104,7 +107,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px red;
     border-radius: 10px;
 }
 nav ul{
@@ -131,11 +134,12 @@ nav li {
 }
 
 nav li a {
-    color: rgb(18, 0, 110);
+    color: white;
 }
 
 nav li:hover {
-    background-color:  rgb(253, 251, 225);
+    background-color:red;
+
 }
 
 .text-right{
@@ -160,7 +164,7 @@ a {
 
 
 .bg-azul-o {
-    background-color: yellow;
+    background-color: red;
 }
 .bg-azul-c {
     background-color: rgb(240, 249, 252);
@@ -259,10 +263,10 @@ h1 {
 
 
 .striped tr:nth-child(odd) {
-background-color:rgb(237, 94, 11);
+background-color:red;
 }
 .striped tr:nth-child(even) {
-background-color:rgb(255, 251, 14);
+background-color:purple;
 
 }
 
