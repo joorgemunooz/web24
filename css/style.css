@@ -6,12 +6,17 @@ body {
 }
 
 * {
+
     box-sizing: border-box;
     color: yellow;
+}
+.formularios-rojos *{
+    color: red ;
 }
 .custom-hr{
     border-color: yellow;
 }
+
 
 
 
@@ -244,7 +249,7 @@ h1 {
     list-style-type: decimal;
 }
 #listas .customer li li {
-    list-style-image: url("/img/bandera\ \(1\).png");
+    list-style-image:url(/img/bandera.png);
 }
 #listas .customer li li li{
     list-style-image: none;
@@ -424,5 +429,5 @@ audio {
     text-align: center;
 }
 #provincia{
-color: yellow;
+color: black;
 }
