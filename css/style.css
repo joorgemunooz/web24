@@ -259,7 +259,7 @@ h1 {
     list-style-type: decimal;
 }
 #listas .customer li li {
-    list-style-image:url(españabandera.jpg);
+    list-style-image:url(bandera.png);
 }
 #listas .customer li li li{
     list-style-image: none;
