@@ -10,6 +10,16 @@ body {
     box-sizing: border-box;
     color: yellow;
 }
+.pagina-negra  *{
+    input[type="text"],
+    color: black;
+}
+.pagina-negra input[type="text"],
+.pagina-negra input[type="password"],
+.pagina-negra input[type="email"],
+
+
+
 .formularios-rojos *{
     color: red ;
 }
@@ -378,7 +388,7 @@ table.horario th {
 .formhtml5 {
     width: 50%;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(144, 127, 255);
 }
 .formhtml5 legend {
     background-color: rgb(6, 6, 71);
@@ -386,8 +396,8 @@ table.horario th {
     font-size: 22px;
 }
 .formhtml5 label {
-    background-color: rgb(1, 65, 40);
-    color: rgb(191, 243, 204);
+    background-color: rgb(255, 105, 11);
+    color: rgb(225, 243, 191);
     font-size: 16px;
 }
 .btn {
